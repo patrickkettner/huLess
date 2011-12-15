@@ -1,0 +1,15 @@
+{
+   "name": "HuLess",
+   "version": "1.0",
+   "content_scripts": [ {
+      "js": [ "huLess.js" ],
+      "matches": [ "http://www.hulu.com/watch*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Toggles hulu's comments and social features on and off",
+   "icons": {
+      "128": "Icons/128icon.png",
+      "48": "Icons/48icon.png"
+   }
+}
+
